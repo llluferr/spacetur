@@ -4,7 +4,7 @@ body{
     color: #444
 }
 
-.container{
+#container{
     max-width: 1128px;
 }
 
@@ -27,22 +27,22 @@ img{
     max-width: 100%;
 }
 
-#cabecalho{
+.cabecalho{
     width: 100%;
     height: 48px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-#logo{
+.logo{
     float: left;
 }
 
-.menu{
+#menu{
     float: right;
 }
 
-ul{
+li{
     float: right;
     display: inline;
     font-size: 14px;
@@ -51,26 +51,29 @@ ul{
     list-style-type: none;
 }
 
-ul li a{
+li a{
     font-size: 20px;
     color: #999;
 }
 
-.banner{
+#banner{
     height: 450px;
     margin-bottom: 35px;
     position: relative;
 }
 
-#box{
-    width: 42.5px;
-    padding: 30px 48px;
+.box{
+    width: 500px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-right: 85px;
+    padding-left: 48px;
     position: absolute;
     top: 48px;
     background: rgba(0, 0, 0, 0.5);
 }
 
-#box p{
+.box p{
     font-size: 20px;
     color: #fff;
 }
@@ -83,21 +86,21 @@ h1{
     color: #fff;
 }
 
-.rodape{
+#rodape{
     width: 100%;
     margin-bottom: 30px;
     float: left;
     font-size: 30px;
 }
 
-.rodape p{
+#rodape p{
     margin-bottom: 0;
 }
 
-.rodape small{
+#rodape small{
     font-size: 18px;
 }
 
-.rodape a{
+#rodape a{
     font-size: 1;
 }
